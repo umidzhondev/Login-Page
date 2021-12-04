@@ -24,7 +24,7 @@ body{
 
 /* Fonts */
 @font-face {
-    font-family: 9int;
+    font-family: Ubuntu;
     src: url("../fonts/Ubuntu-Medium.ttf");
 }
 
