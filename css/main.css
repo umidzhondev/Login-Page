@@ -33,7 +33,7 @@ body{
     display: flex;
     background-color: #94b5c1;
     border-radius: 6px;
-    height: 50vh;
+    height: 450px;
 }
 .register__section div{
     border-radius: 10px;
