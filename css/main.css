@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0 auto;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 9int;
+    src: url("../fonts/Ubuntu-Medium.ttf");
+}
+
+/* Register section styles */
+.register__section {
+    display: flex;
+    background-color: #94b5c1;
+    border-radius: 6px;
+    height: 50vh;
+}
+.register__section div{
+    border-radius: 10px;
+}
+/* Sign in section styles */
+.sign__in {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform: translateX(0);
+    transition: transform .5s ease;
+    background-color: #94b5c1;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign__in-title {
+    color: #000;
+    font-size: 2rem;
+}
+
+.sign__in-social__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem 0;
+}
+
+.sign__in-social__icons a i {
+    background-color: #94b5c1;
+    font-size: 14px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    width: 39px;
+    height: 39px;
+    color: #000;
+}
+
+.sign__in-subtitle {
+    font-size: 14px;
+    font-weight: 300 !important;
+    padding-bottom: 11px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sign__in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input {
+    padding: 9px 11px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(14, 11, 11);
+}
+
+#input1 {
+    margin-bottom: 14px;
+}
+
+.form__passwordhelp {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+}
+
+.form-btn .btn {
+    background: #7521e0;
+    color: #fff;
+    border: none;
+    padding: 14px 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: opacity 0.4s ease;
+}
+
+.form-btn .btn:hover {
+    opacity: 0.9;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Sign up section styles */
+.sign__up {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d68a95;
+    border-radius: 0 6px 6px 0;
+    justify-content: center !important;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.7s ease;
+}
+
+.sign__up-title {
+    color: #000;
+    font-size: 2rem;
+    width: 65%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.sign__up-subtitle {
+    color: #ffffffdb;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.sing__up-btn .btn {
+    background: #7521e0;
+    color: #fff;
+    border: none;
+    padding: 14px 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: opacity 0.4s ease;
+}
+
+.sing__up-btn .btn:active {
+    background-color: orangered;
+}
+
+.title2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#input3 {
+    display: none;
+}
+
+.fab {
+    transition: border .7s ease-in-out;
+}
+
+.fab:hover {
+    border-color: crimson;
+}
